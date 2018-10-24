@@ -4,7 +4,7 @@ VNIT ECE Department
 
 
 Project Members:
-1.Hrishikesh Ugale
+1.Hrishikesh Ugale\n
 2.Hrithik
 3.Balaji Jagtap
 4.Jagruti
