@@ -46,7 +46,7 @@ void setup() {
 
 void loop() {
 
-if(Serial.available()>0)
+while(Serial.available()>0)
 {
 char a = Serial.read();
 Serial.println(a);
@@ -66,10 +66,10 @@ else if (a == 'l'){
   Serial.println("Locked");
   }
 }
-else if(a == 'a')
+/*else if(a == 'a')
 {
   alarm();
-}
+}*/
 
 else Serial.println("Unlock Failed");
 }
